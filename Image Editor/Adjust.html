@@ -1,0 +1,79 @@
+<html>
+   <head>
+      <title>Adjustments</title>
+      <link rel="stylesheet" href="Adjust.css">
+      <script src="Adjust.js"></script>
+   </head>
+   <body>
+   <p id="Heading">Image Edtior</p>
+  <form id="myform">
+
+
+</form>
+<div class="Image-area">
+ 
+ </div>  
+
+   <div class="Sliders">
+    <p id="sliderheading"><h3>Adjustments</h3></p>
+    <form id="Slider-Form">
+       <p>
+          <label for="Brightness">Brightness</label>
+          <input id="Brightness" name="Brightness" type="range" value="0" min="100" max="200"
+          value="" class="slider">
+       </p>
+         <br>
+       <p>
+          <label for="gs">Grayscale</label>
+          <input id="gs" name="gs"  value="0" type="range" min="0" max="100"
+          value="" class="slider">
+       </p>
+       <br>
+       <p>
+          <label for="Blur">Blur image</label>
+          <input id="Blur" name="Blur"  value="0" type="range" min="0" max="10"
+          value="" class="slider">
+       </p>
+       <br>
+       <p>
+          <label for="Hue">Hue-Rotate</label>
+          <input id="Hue" name="Hue" type="range" value="0" min="0" max="500"
+          value="" class="slider">
+       </p>
+       <br>
+       <p>
+          <label for="Sepia">Sepia</label>
+          <input id="Sepia" name="Hue" type="range" value="0" min="0" max="100"
+          value="" class="slider">
+       </p>
+       <br>
+       <p>
+          <label for="Saturation">Saturation</label>
+          <input id="Saturation" name="satu" type="range" value="0" min="100" max="200"
+          value="" class="slider">
+       </p>
+       <br>
+       <p>
+          <label for="Contrast">Contrast</label>
+          <input id="Contrast" name=" Contrast" type="range" value="0" min="100" max="200"
+          value="" class="slider">
+       </p>
+       <br>
+       <p>
+        <label for="Invert">Invert</label>
+        <input id="Invert" name="Invert" type="range" value="0" min="0" max="100"
+        value="" class="slider">
+     </p>
+     <P id="reset" >
+     <button type="reset" >Reset</button>
+   </P>  
+    </form>
+ </div>
+ <p><input type="file"  accept="image/*" name="image" id="Input1"  onchange="loadFile(event)" style="display: none;"></p>
+ <p><label for="file" id="custom-button" style="cursor: pointer;"> Click here to Upload Image</label></p>
+ <img  id="targetimage">
+ 
+ <script>
+
+ </script>
+ 

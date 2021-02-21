@@ -1,0 +1,41 @@
+<html>
+   <head>
+      <title>Filter</title>
+      <script src="SimpleImage.js"></script>
+      <link rel="stylesheet" href="Filter.css">
+      <script src="Filter.js"></script>
+   </head>
+   <body>
+   <p id="Heading">Image Edtior</p>
+   <div class="NavBar">
+      <a href="upload.html">Background Changer</a>
+   </div>
+   <div class="NavBar">
+      <a href="Adjust.html" id="a1">Adjustments</a>
+   </div>
+   <canvas id="canvas"></canvas>
+   <div class="Uploadimg">
+ <input type="file" id="Input1" accept="image/*" hidden="hidden" onchange="Loadimg()">
+<button type="button" id="custom-button" >CLICK HERE TO CHOOSE A FILE</button>
+</div>
+            
+  
+   </p>
+   <p id="Grayscale">
+      Choose Filter :
+      <input type="button" id="Graybutton"  value="Grayscale" 
+         onclick="MakeGray()">
+      <input type="button" id="Redbutton"  value="Reddish" 
+         onclick="MakeRed()">
+      <input type="button" id="clearfilter" value="Clear Filter" 
+         onclick="ClearFilter()">
+      <input type="button" id="Boxfilter" value="Box"
+         onclick="Boxfilter()">
+      <input type="button" id="Rainbowfilter" value="Rainbow"
+         onclick="RainbowFilter()">
+   </p>
+   <input type="button" id="btn-download" value="Download"
+   onclick="Downloadimg()">
+  
+</body>
+</html>

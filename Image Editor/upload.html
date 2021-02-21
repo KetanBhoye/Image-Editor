@@ -1,0 +1,26 @@
+<html>
+   <head>
+      <script src="SimpleImage.js"></script>
+      <script src="upload.js"></script>
+      <link rel="stylesheet" href="upload.css">
+   </head>
+   <body>
+      <h1 id="head">Image Editor</h1>
+      <canvas id="can"></canvas>
+      <P id="fgtext"> Foreground image
+         <input type="file" multiple="false" accept="image/*" id="Fgimage"
+            onchange="Fgimage()">
+         <input type="button" id="GreenScreen" value="Make Composite"
+            onclick="GreenScreen()">
+         <input type="button" id="ClearCanvas" value="Clear Canvas"
+            onclick="ClearCanvas()">
+      </P>
+      <p id="bgtext"> Background Image
+         <input type="file" multiple="false" accept="image/*" id="Bgimage"
+            onchange="Bgimage()">
+      </p>
+      <canvas id="can2"></canvas>
+      <input type="button" id="btn-download" value="Download"
+      onclick="Downloadimg()">
+   </body>
+</html>
