@@ -30,9 +30,9 @@ This is my first web development project where I have used HTML, CSS, JavaScript
 
 This project helped me to gain knowledge about web technologies and image processing.
 
-## Demo
+## Demo Video
 
-You can watch a demo of the project on Google Drive:
+You can watch a demo of the project:
 
 https://user-images.githubusercontent.com/77838645/221090325-82c0ee8e-0d02-4052-98e2-495512221ad9.mp4
 
