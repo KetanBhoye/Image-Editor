@@ -1,4 +1,4 @@
-# My First Web Development Project
+# Image Editor
 
 This is my first web development project where I have used HTML, CSS, JavaScript and SimpleImage library by Duke University for performing the operation on the image pixels.
 
@@ -34,4 +34,6 @@ This project helped me to gain knowledge about web technologies and image proces
 
 You can watch a demo of the project on Google Drive:
 
-<iframe src="https://drive.google.com/file/d/1eqKTkAE2jg_xu9mUBYwU1OijrVWQiXli/preview" width="640" height="480"></iframe>
+https://user-images.githubusercontent.com/77838645/221090325-82c0ee8e-0d02-4052-98e2-495512221ad9.mp4
+
+
